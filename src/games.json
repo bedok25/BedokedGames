@@ -1,0 +1,102 @@
+[
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "category": "Bulmaca",
+    "description": "Blokları eşleştirerek satırları yok ettiğiniz efsanevi klasik Tetris oyunu. Hızlandıkça reflekslerinizi test edin!",
+    "iframeUrl": "https://chvin.github.io/react-tetris/?lan=tr",
+    "iconName": "Grid",
+    "gradient": "from-red-500 to-rose-600",
+    "controls": "Klasik Tuşlar: Yön Tuşları (Döndürme ve Hareket), Boşluk Tuşu (Hızlı Düşüş)"
+  },
+  {
+    "id": "game-2048",
+    "title": "2048",
+    "category": "Bulmaca",
+    "description": "Aynı sayıdaki karoları kaydırıp birleştirerek 2048 sayısına ulaşmaya çalışın. Stratejik ve zeka dolu bir matematik oyunu.",
+    "iframeUrl": "https://gabrielecirulli.github.io/2048/",
+    "iconName": "Binary",
+    "gradient": "from-amber-400 to-orange-500",
+    "controls": "Yön Tuşları ile karoları sağa, sola, yukarı ve aşağı kaydırın."
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "category": "Beceri",
+    "description": "Altıgen şeklinde bir alanda, gelen renkli çubukları aynı renkte üçlüler oluşturacak şekilde döndürerek yok edin.",
+    "iframeUrl": "https://hextris.github.io/hextris/",
+    "iconName": "Hexagon",
+    "gradient": "from-violet-500 to-purple-600",
+    "controls": "Sağ ve Sol Yön Tuşları ile altıgeni döndürün."
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "category": "Refleks",
+    "description": "Engeller ardındaki dar boşluklardan geçerek küçük kuşu olabildiğince uzağa uçurun. Rekorunuzu kırın!",
+    "iframeUrl": "https://nebez.github.io/floppybird/",
+    "iconName": "Bird",
+    "gradient": "from-sky-400 to-blue-500",
+    "controls": "Boşluk Tuşu veya Sol Tık ile kuşu havada zıplatın."
+  },
+  {
+    "id": "snake",
+    "title": "Klasik Yılan",
+    "category": "Klasik",
+    "description": "Yemleri toplayarak kuyruğunuzu büyütün. Kendi kuyruğunuza veya sınırlara çarpmamaya dikkat edin!",
+    "iframeUrl": "https://sandrina-p.github.io/snake/",
+    "iconName": "TrendingUp",
+    "gradient": "from-emerald-400 to-teal-500",
+    "controls": "Yön Tuşları (Yukarı, Aşağı, Sol, Sağ) ile yılanı yönlendirin."
+  },
+  {
+    "id": "minesweeper",
+    "title": "Mayın Tarlası",
+    "category": "Bulmaca",
+    "description": "Rakam ipuçlarını kullanarak gizli bombaları tespit edin ve tüm güvenli alanları açığa çıkartın.",
+    "iframeUrl": "https://sheerun.github.io/minesweeper/",
+    "iconName": "Bomb",
+    "gradient": "from-slate-600 to-zinc-700",
+    "controls": "Sol Tık ile kareyi açın, Sağ Tık ile bayrak yerleştirin."
+  },
+  {
+    "id": "pacman",
+    "title": "Google Pac-Man",
+    "category": "Klasik",
+    "description": "Labirentteki tüm yemleri yiyin, hayaletlere yakalanmadan güvende kalın. Büyük yemleri yiyerek onları kovalayın!",
+    "iframeUrl": "https://macek.github.io/google_pacman/",
+    "iconName": "CircleDot",
+    "gradient": "from-yellow-400 to-amber-500",
+    "controls": "Yön Tuşları ile Pac-Man'i yönlendirin."
+  },
+  {
+    "id": "pong",
+    "title": "Classic Pong",
+    "category": "Klasik",
+    "description": "Karşı rakibe karşı topu kaçırmadan raketinizle geri gönderin. Bilgisayara karşı mücadelenizi verin!",
+    "iframeUrl": "https://bencentra.github.io/html5-canvas-pong/",
+    "iconName": "Sliders",
+    "gradient": "from-cyan-500 to-blue-600",
+    "controls": "Yukarı/Aşağı Yön Tuşları veya Fare Hareketi ile raketi kontrol edin."
+  },
+  {
+    "id": "color-switch",
+    "title": "Color Switch",
+    "category": "Refleks",
+    "description": "Topunuzu kendi rengindeki engellerden geçirerek yükselin. Renk değiştiren çemberlerin arasından zamanlayarak geçin.",
+    "iframeUrl": "https://ansimuz.github.io/color-switch-html5/",
+    "iconName": "Palette",
+    "gradient": "from-pink-500 to-purple-600",
+    "controls": "Boşluk Tuşu veya Tıklayarak topu zıplatıp yükseltin."
+  },
+  {
+    "id": "tower-blocks",
+    "title": "Kule İnşası",
+    "category": "Beceri",
+    "description": "Sallanan blokları tam vaktinde serbest bırakıp üst üste mükemmel şekilde yerleştirerek en yüksek gökdeleni dikin.",
+    "iframeUrl": "https://heiswayi.github.io/tower-blocks/",
+    "iconName": "Layers",
+    "gradient": "from-fuchsia-500 to-pink-600",
+    "controls": "Boşluk Tuşu veya Ekran Tıklaması ile bloğu yerçekimine bırakın."
+  }
+]
