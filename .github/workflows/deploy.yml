@@ -1,0 +1,34 @@
+name: GitHub Pages'e Otomatik Dağıtım (Deploy to GitHub Pages)
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+# GitHub Actions token'ına, gh-pages dalına yazma yetkisi veriyoruz
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu Çek (Checkout) 🛎️
+        uses: actions/checkout@v4
+
+      - name: Node.js Kurulumu ⚙️
+        uses: actions/setup-node@v4
+        with:
+          node-rate: 20
+
+      - name: Bağımlılıkları Yükle ve Derle 🔧
+        run: |
+          npm install
+          npm run build
+
+      - name: GitHub Pages'e Dağıt 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # Derlenen dosyaların yükleneceği dal
+          folder: dist # Vite'ın çıktı ürettiği klasör
